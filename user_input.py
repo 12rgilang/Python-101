@@ -13,12 +13,8 @@
 game = input("we are going to play Rock Papper Scicors, lets play the game.. (type ypur choose)")
 lst = ["Rock", "Papper", "Scicors"]
 if game == "Rock":
-    if game == "Papper":
-        if game == "Scicors":
-            print("you're Choosing", game, "im choosing",lst[0])
-        else:
-            print("you're Choosing", game, "im choosing",lst[2])
-else:
     print("you're Choosing", game, "im choosing",lst[1])
-
-
+    else game == "Papper":
+    print("you're Choosing", game, "im choosing",lst[0])
+else game == "Scicors":
+    print("you're Choosing", game, "im choosing",lst[2])
