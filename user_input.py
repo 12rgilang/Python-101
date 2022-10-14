@@ -14,7 +14,7 @@ game = input("we are going to play Rock Papper Scicors, lets play the game.. (ty
 lst = ["Rock", "Papper", "Scicors"]
 if game == "Rock":
     print("you're Choosing", game, "im choosing",lst[1])
-    else game == "Papper":
-    print("you're Choosing", game, "im choosing",lst[0])
-else game == "Scicors":
+elif game == "Papper": 
     print("you're Choosing", game, "im choosing",lst[2])
+elif game == "Scicors":
+    print("you're Choosing", game, "im choosing",lst[0])
