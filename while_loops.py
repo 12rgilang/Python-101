@@ -5,4 +5,4 @@ while num <= 100:
     num = num + 1
 
 #while berguna ketika ingin mencapai hal yan kita ingin kan, ketika
-#object tidak sesuai dengan angka yang sebenarnya.
+#object tidak sesuai dengan angka yang sebenarnya..
